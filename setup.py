@@ -35,7 +35,7 @@ setup(
     package_dir={"": "src"},
     packages=find_packages("src"),
     entry_points={},
-    python_requires=">=3.7.0",
+    python_requires=">=3.6.0",
     install_requires=[
         "numpy>=1.17",
         "packaging>=20.0",
